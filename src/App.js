@@ -1,4 +1,5 @@
 import React from 'react';
+import './App.css'
 
 
 function App() {
@@ -37,6 +38,20 @@ function App() {
         
       
     </nav>
+
+    <footer>
+        <div className=" footer bg-dark text-light text-center">
+        <div className="container col-6 col-lg-4 d-flex pt-3 justify-content-around ">
+              <i className="fab fa-facebook-square"></i>
+            <i class="fab fa-whatsapp-square"></i>
+            <i class="fab fa-linkedin"></i>
+            <i class="fab fa-instagram-square"></i>
+
+        </div>
+        
+      </div>
+    </footer>
+    
       
 
     
